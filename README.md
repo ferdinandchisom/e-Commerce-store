@@ -4,8 +4,8 @@ This project is a modern, static eCommerce landing page designed with HTML, CSS,
 
 ## Author
 
-**Name:** Bright Atsighi
-**LinkedIn:** [LinkedIn](https:linkedin.com/in/brytebee)
+**Name:** Chisom Ferdinand
+**LinkedIn:** [LinkedIn](https:linkedin.com/in/chisomferdinand)
 
 ## Features
 

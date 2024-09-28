@@ -8,12 +8,12 @@
 
 body {
   background-color: #f4f4f4;
-  color: white;
+  color: #333;
 }
 
 /* Header Section */
 header {
-  background-color: black;
+  background-color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 20px 10%;
   position: sticky;
