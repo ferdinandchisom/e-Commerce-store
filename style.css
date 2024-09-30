@@ -1,0 +1,164 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Section */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px 10%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+header h1 span {
+  color: #e91e63;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #e91e63;
+}
+
+.cart {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+  background-color: #ffffff;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 30px;
+}
+
+.hero-img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d81b60;
+}
+
+/* Product Section */
+.products {
+  padding: 60px 10%;
+}
+
+.products h3 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.product-gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.product-card img {
+  max-width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.product-card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  margin-bottom: 10px;
+}
+
+/* Checkout Section */
+.checkout {
+  padding: 60px 10%;
+}
+
+/* Hidden Elements */
+.hidden {
+  display: none;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
